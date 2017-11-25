@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang chủ</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" id="btn-toggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-music"></span> Linkin Park & Friends</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Username" name="usernameLogin" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password"  name="passwordLogin" class="form-control">
+            </div>
+            <button type="button" class="btn btn-success" id="btnSignIn">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+
+
+      </div>
+    </nav>
+	
+
+	<div class="jumbotron center-block" id="quote">
+		<div class="container">
+			<div class="page-header">
+				<h2 id="title1">Linkin Park</h2>				
+			</div>
+			<h1 id="title1">In the End, It doesn't even matter.</h1>
+			<button type="button" class="btn btn-success btn-lg center-block" id="sign-up-btn">Sign up for Incredible</button>
+		</div>		
+	</div>
+	
+
+	<div class="center-block" id="sign-up-jumbotron" style="display: none;">
+		<div class="container">
+			<div class="page-header">
+				<h2 id="title2"><span class="glyphicon glyphicon-music"></span> Rock Friends - Sign up to Sing and Live <span class="glyphicon glyphicon-music"></span></h2>				
+			</div>
+            <form class="form-horizontal" role="form" name="sign-up-form">
+                <div class="form-group">
+                    <label for="username" class="col-sm-3 control-label">Username</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="username" name="username" placeholder="Username" class="form-control" autofocus>
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-sm-3 control-label">Password</label>
+                    <div class="col-sm-9">
+                        <input type="password" id="password" name="password" placeholder="Password" class="form-control">
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="re-password" class="col-sm-3 control-label">ReEnter Password</label>
+                    <div class="col-sm-9">
+                        <input type="password" id="re-password" name="re-password" placeholder="ReEnter Password" class="form-control">
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="firstName" class="col-sm-3 control-label">Full Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="firstName" name="fullname" placeholder="Full Name" class="form-control text-capitalize" >
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" id="email" name="email" placeholder="Email" class="form-control">
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
+                    <div class="col-sm-9">
+                        <input type="date" id="birthDate" name="birthDate" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Gender</label>
+                    <div class="col-sm-2">
+                        <select name="gender" class="form-control">
+                             	<option value="0">Female</option>
+                             	<option value="1">Male</option>
+                             	<option value="-1" selected>Unknown</option>
+                        </select>
+                        
+                    </div>
+                </div> <!-- /.form-group -->
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3 col-lg-2">
+                        <button type="button" class="btn btn-primary btn-block" id="sign-up-button">Register</button>
+                    </div>
+                </div>
+            </form> <!-- /form -->
+        </div> <!-- ./container -->
+	</div>
+	<div class="clearfix">
+		
+	</div>
+	<div class="container marketing">
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/leesin.jpg" alt="">
+          <h2>Leesin</h2>
+          <p><b><i>"We like playing smaller venues, but we know how many people want to come and see us so we don't ever want to stop anyone who wants to come to a show from coming."</i></b></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/obama.jpg" alt="">
+          <h2>Obama</h2>
+          <p><b><i>"I have been able to tap into all the negative things that can happen to me throughout my life by numbing myself to the pain so to speak and kind of being able to vent it through my music."</i></b></p>      
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/faker.jpeg" alt="">
+          <h2>SKT T1 Faker</h2>
+          <p><b><i>"My brother CPT Tommy Lee Crider was in the army all of his adult life and on March 16th 2017 he committed suicide. When I got the call I was actually l was actually listening to one of your guys new songs Battle Symphony it had just been released. At his funeral I made sure that song and a few other Linkin Park songs were played."</i></b></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+	
+	<!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">About Chester Bennington . <span class="text-muted">Our Vocaloid.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/chester.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/rock-music-wallpapers.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Share Experience. <span class="text-muted">It's time to begin, isn't it ?.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Gifts and Memories. <span class="text-muted">Suprisingly</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive"  src="img/lkgif.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+		
+	<footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <h4>
+              <strong>Linkin Park Fan Club</strong>
+            </h4>
+            <p>1234 Cầu Giấy
+              <br>Hà Nội, ISO:9001</p>
+            <ul class="list-unstyled">
+                <a href="">nguyenducminh24101998@gmail.com</a>
+              </li>
+            </ul>
+            <br>
+            <hr class="small">
+            <p class="text-muted">Copyright &copy; Linkin Park and Friends 2017</p>
+          </div>
+        </div>
+      </div>
+      <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
+        <i class="fa fa-chevron-up fa-fw fa-1x"></i>
+      </a>
+    </footer>
+
+    </div><!-- /.container -->
+
+	<div class="scroll-top-wrapper ">
+  		<span class="scroll-top-inner glyphicons glyphicons-arrow-up">
+  		</span>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<!-- <script type="text/javascript" src="js/script.js"></script> -->
+	<!-- <script type="text/javascript" src="js/login.js"></script> -->
+	<script type="text/javascript" src="js/member.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
